@@ -1,0 +1,11 @@
+\documentclass{article}
+\usepackage{./todonotes}
+\makeatletter
+\renewcommand{\@todonotes@backgroundcolor}{none}
+\makeatother
+\begin{document}
+This text is not sharp. \todo{This text is sharp!}
+
+Another paragraph:
+\todo[author=Author]{Another todo}
+\end{document}
